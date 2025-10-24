@@ -8,7 +8,7 @@ class Watcher:
         self.active = False
 
     def start(self):
-        self.acitve = True
+        self.active = True
         print("Övervakning startad.")
 
     def stop(self):
