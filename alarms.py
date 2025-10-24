@@ -6,7 +6,7 @@ class AlarmManager:
 
     def add_alarm(self, alarm_type: str, level: int):
         if 1 <= level <= 100:
-            self.alarm.append((alarm_type, level))
+            self.alarms.append((alarm_type, level))
             print(f"larm för {alarm_type} satt till {level}%.")
         else:
             print(f"Fel: Larmnivån måste vara mellan 1 och 100")
