@@ -23,6 +23,6 @@ class AlarmManager:
         if 0 <= index < len(self.alarms):
             removed = self.alarms.pop(index)
             print(f"Tog bort larm {removed[0]} på {removed [1]}%.")
-            else
+            else:
             print("Fel: ogiltigt index.")
             
