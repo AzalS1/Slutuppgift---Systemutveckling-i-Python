@@ -33,7 +33,7 @@ def main():
             watcher.status()
         elif choice == '4':
             print("\n--- Skapa larm ---")
-            print("1.CPU")
+            print("1. CPU")
             print("2. Minne")
             print("3. Disk")
             print("0. Tillbaka")
