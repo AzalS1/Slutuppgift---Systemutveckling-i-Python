@@ -16,7 +16,7 @@ class AlarmManager:
             print("Inga larm konfiguerade.")
         else:
             # sortering med funktionell programmering (lambda)
-            for i, (alarm_type, level) in enumerate(sorted(self.alarms, key=lambda x: (x[0], x[1]))start=1):
+            for i, (alarm_type, level) in enumerate(sorted(self.alarms, key=lambda x: (x[0], x[1])), start=1):
                 print(f"{i}. {alarm_type}: larm {level}%")
 
     def remove_alarm(self, index: int):
