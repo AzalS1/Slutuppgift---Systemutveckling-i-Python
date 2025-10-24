@@ -10,7 +10,7 @@ def main():
     watcher = Watcher()
     alarms = AlarmManager()
 
-    while true:
+    while True:
         print("\n---Huvudmeny---")
         print("1. Starta övervakning")
         print("2. Stoppa övervakning")
