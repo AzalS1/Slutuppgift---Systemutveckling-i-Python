@@ -72,11 +72,11 @@ def main():
                         cpu, mem, disk = stats
                         for alarm_type, level in alarms.alarms:
                             if alarm_type == "CPU" and cpu >= level:
-                                print(f*** VARNING, CPU ÖVERSTIGER {level}% ***)
+                                print(f"*** VARNING, CPU ÖVERSTIGER {level}% ***")
                             if alarm_type == "Minne" and mem >= level:
-                                print(f*** VARNING, MINNE ÖVERSTIGER {level}% ***)
+                                print(f"*** VARNING, MINNE ÖVERSTIGER {level}% ***")
                             if alarm_type == "Disk" and disk >= level:
-                                print(f*** VARNING, DISK ÖVERSTIGER {level}% ***)
+                                print(f"*** VARNING, DISK ÖVERSTIGER {level}% ***")
                     time.sleep(2)
             except KeyboardInterrupt:
                 print("Återgå till huvudmenyn")
