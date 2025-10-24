@@ -22,7 +22,7 @@ class Watcher:
 
         cpu = psutil.cpu_percent(interval=1)
         mem = psutil.virtual_memory()
-        root = ps.path.abspath(os.sep)
+        root = os.path.abspath(os.sep)
         disk = psutil.disk_usage(root)
 
         print(f"CPU-anvädning: {cpu}%")
