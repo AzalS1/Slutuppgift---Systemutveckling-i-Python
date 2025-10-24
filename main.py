@@ -50,7 +50,7 @@ def main():
             elif sub_choice == '3':
                 val = input_int("Ange disklarmnivå (1-100): ", 1, 100)
                 if val is not None:
-                    alarms add_alarm("disk", val)
+                    alarms.add_alarm("disk", val)
                 
         elif choice == '5':
             alarms.list_alarms()
