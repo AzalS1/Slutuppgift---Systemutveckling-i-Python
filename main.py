@@ -82,7 +82,7 @@ def main():
                 print("Återgå till huvudmenyn")
 
         elif choice == '0':
-            print("Prigrammet avslutas...")
+            print("Programmet avslutas...")
             break
         
         else:
